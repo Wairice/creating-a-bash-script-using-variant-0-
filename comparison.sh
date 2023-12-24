@@ -10,10 +10,6 @@ fi
 par1=$1
 par2=$2
 
-alias ll='ls -l'
-alias la='ls -a'
-alias grep='grep --color=auto'
-
 if [ "$par1" -gt "$par2" ]; then
     echo "1-й параметр більше за 2-й."
     echo "Список псевдонімів системи:"
